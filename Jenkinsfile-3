@@ -6,8 +6,8 @@ pipeline {
         sh '''
           node --version
           git --version
-          curl --versionn
-        '''  
+          curl --version
+        '''
         }
       }
     }
